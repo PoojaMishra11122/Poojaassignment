@@ -1,0 +1,9 @@
+A testing framework is a set of guidlines or rules used for creating and designing test cases. A framework is a combination of practices and tools.These guidlines include object repositories,coding standards,test data.
+In our testframework we used java language.
+we used TDD(test driven development) approach by using quick start templete of maven and all our dependencies were defined in pom.xml.Page object model,we have maintained a class for every webpage.Each webpage has a saperate class file and that class holds the functionality and element of that webpages.saparate classes are there for every induvidual test.we had property file this file stotres the common information which can be accessed throghout the framework such as on which broweser we want to run application url,user credential,keeping this details in coonfig file mallkes it easy to mainted and easy.
+we had base class where we had all the common functions of all the pages.
+utility class stores and handlee the functions which are repetative in nature such as waits,capturing screenshots,accessing data from excelsheets,sending emails.
+for screenshots we have used Listners in our framework to capture screenshots on any failure these will be storedd in sapareated  folder and will be added to output report.
+test data are accessed by using apache poi we were accesing all our test data through excel sheets.
+then testNG used for acheiving assertion ,grouping and parallel excecution.
+For version control we have used GIT.
